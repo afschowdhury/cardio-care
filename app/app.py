@@ -340,7 +340,7 @@ with tab_predict:
                 index=int(default_vals["thal"]) - 1 if int(default_vals["thal"]) in [1, 2, 3] else 1
             )
 
-        submit_btn = st.form_submit_btn("❤️ Analyze Patient Risk")
+        submit_btn = st.form_submit_button("❤️ Analyze Patient Risk")
 
     # Assemble patient dictionary
     current_patient = {
