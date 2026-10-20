@@ -1,0 +1,109 @@
+/* CardioCare AI Custom Medical Dashboard Styling */
+
+.main-header {
+    background: linear-gradient(135deg, #1d3557 0%, #457b9d 100%);
+    color: white;
+    padding: 1.8rem 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.main-header h1 {
+    color: #ffffff;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.main-header p {
+    color: #f1faee;
+    font-size: 1rem;
+    margin: 0;
+    opacity: 0.95;
+}
+
+.metric-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    text-align: center;
+}
+
+.metric-card-title {
+    font-size: 0.85rem;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.metric-card-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.risk-badge-high {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #f87171;
+    padding: 0.8rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.risk-badge-mod {
+    background-color: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fcd34d;
+    padding: 0.8rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.risk-badge-low {
+    background-color: #dcfce7;
+    color: #166534;
+    border: 1px solid #86efac;
+    padding: 0.8rem 1.4rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+.section-box {
+    background: #f8fafc;
+    border-left: 4px solid #457b9d;
+    padding: 1rem 1.2rem;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 1.2rem;
+}
+
+.stButton>button {
+    width: 100%;
+    background-color: #e63946 !important;
+    color: white !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    padding: 0.6rem 1.5rem !important;
+    border-radius: 8px !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.stButton>button:hover {
+    background-color: #c1121f !important;
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.35) !important;
+}
